@@ -1,4 +1,4 @@
--module (fancyapi_test).
+-module (fancyapi_SUITE).
 -compile (export_all).
 
 % etest macros

@@ -17,3 +17,5 @@ Open your browser and go to
 
     http://127.0.0.1:3000/hello/world
 
+
+Still figuring out how to run the test with rebar3 ct or rebar3 eunit.

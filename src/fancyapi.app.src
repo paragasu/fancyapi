@@ -5,7 +5,10 @@
   {registered, []},
   {applications, [
                   kernel,
-                  stdlib
+                  stdlib,
+                  elli,
+                  etest,
+                  etest_http
                  ]},
   {mod, { fancyapi_app, []}},
   {env, []}

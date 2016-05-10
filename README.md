@@ -1,11 +1,19 @@
 Erlang http api tutorial from [youtube](https://www.youtube.com/watch?v=xCjWXJ1j64M)
 
 Setup
-  $rebar get-deps
 
-Compile and run the test
-  $rebar compile && deps/etest/bin/etest-runner
+    $git clone https://github.com/paragasu/fancyapi.git
+    $cd fancyapi
+    $rebar3 compile
+    $rebar3 release
+
 
 Running the server
-  $erl -detached -pa deps/*/ebin ebin -s fancyapi_app start
+
+    $./_build/default/rel/fancyapi/bin/fancyapi
+
+
+Open your browser and go to 
+
+    http://127.0.0.1:3000/hello/world
 
